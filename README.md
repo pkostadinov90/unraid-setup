@@ -3,6 +3,18 @@ Personal notes on setting up Unraid server
 
 # Installation
 
+## Current HDDs confiugration:
+
+| DEVICE | IDENTIFICATION                             | FS  | SIZE  | USED          | FREE          |
+|--------|--------------------------------------------|-----|-------|---------------|---------------|
+| Parity | WDC_WUH721414ALE6L4_9RJ9MWRC - 14 TB (sdc) |     |       |               |               |
+| Disk 1 | TOSHIBA_DT01ACA200_83S0TADKS - 2 TB (sdd)  | xfs | 2 TB  |    1 TB       |    1 TB       |
+| Disk 2 | TOSHIBA_DT01ACA300_Z784KP1AS - 3 TB (sdf)  | xfs | 3 TB  |    2 TB       |    1 TB       |
+| Disk 3 | HGST_HUS728T8TALE6L4_VDGL0EPD - 8 TB (sdg) | xfs | 8 TB  |    6.89 TB    |    1.11 TB    |
+| Disk 4 | TOSHIBA_DT01ACA300_5683YH1GS - 3 TB (sde)  | xfs | 3 TB  |    60.6 GB    |    2.94 TB    |
+| Disk 5 | ST8000NE0004-1ZF11G_ZA24PBEJ - 8 TB (sdb)  | xfs | 8 TB  |    88.6 GB    |    7.91 TB    |
+|        | Array of   six devices                     |     | 24 TB |    10.0 TB    |    14.0 TB    |
+
 ## Tools
  - Apps store plugin
  - Dev Pack plugin
